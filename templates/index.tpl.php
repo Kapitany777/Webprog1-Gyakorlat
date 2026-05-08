@@ -9,10 +9,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title><?= $ablakcim['cim'] . ((isset($ablakcim['mottó'])) ? ('|' . $ablakcim['mottó']) : '') ?></title>
+
     <link rel="stylesheet" href="./styles/stilus.css" type="text/css">
+
     <?php if (file_exists('./styles/' . $keres['fajl'] . '.css')) { ?>
         <link rel="stylesheet" href="./styles/<?= $keres['fajl'] ?>.css" type="text/css"><?php } ?>
+
+    <?php if (file_exists('./javascript/' . $keres['fajl'] . '.js')) { ?>
+        <script type="text/javascript" src="./javascript/<?= $keres['fajl'] ?>.js"></script><?php } ?>
+
 </head>
 
 <body>

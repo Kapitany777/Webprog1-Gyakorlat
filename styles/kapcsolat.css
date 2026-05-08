@@ -1,0 +1,25 @@
+fieldset {
+    border: 1px solid #e0e0e0;
+    margin: 16px;
+    padding: 16px;
+}
+
+label {
+    display: block;
+    margin: 12px 0px;
+}
+
+input {
+    display: block;
+    border: 1px solid #e0e0e0;
+    margin: 12px 0px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+textarea {
+    border: 1px solid #e0e0e0;
+    margin: 12px 0px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -79,6 +79,13 @@ div#content img {
     border: 3px solid blue;
 }
 
+input {
+    border: 1px solid #e0e0e0;
+    margin: 2px 0px;
+    padding: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 footer {
     margin: 0;
     padding: 10px 25px;
